@@ -1,0 +1,63 @@
+<!--
+theme name:	Penumbra
+author:		Scott Augustyn
+variation:	NES
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../Penumbra_V4.xml</include>
+	
+	<view name = "system">
+		<image name = "background" extra = "true">
+			<path>./_art/nes_art_blur.jpg</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
+
+		<image name = "logo">
+			<path>./_art/nes1.svg</path>
+		</image>
+	</view>
+	
+	<view name = "basic">
+		<text name="system_name_1" extra="true">
+			<text>Nintendo</text>
+			<forceUppercase>1</forceUppercase>
+			<size>0.45 0.08</size>
+			<pos>0.527 0.01</pos>
+			<color>7b7d7f</color>
+			<fontPath>./../_art/fonts/OPENSANS-LIGHT.TTF</fontPath>
+			<fontSize>0.055</fontSize>
+			<alignment>right</alignment>
+		</text>
+		
+		<text name="system_name_2" extra="true">
+			<text>Entertainment System</text>
+			<forceUppercase>1</forceUppercase>
+			<size>0.45 0.08</size>
+			<pos>0.527 0.07</pos>
+			<color>7b7d7f</color>
+			<fontPath>./../_art/fonts/OPENSANS-LIGHT.TTF</fontPath>
+			<fontSize>0.055</fontSize>
+			<alignment>right</alignment>
+		</text>
+
+		<image name="logo">
+			<path>./_art/nes1.svg</path>
+			<pos>0.025 0.079</pos>
+			<maxSize>0.45 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+	</view>
+	
+	<view name = "detailed, video">
+		<image name="logo">
+			<path>./_art/nes1.svg</path>
+			<pos>0.680 0.025</pos>
+			<maxSize>0.300 0.100</maxSize>
+			<origin>0 0</origin>
+		</image>
+	</view>
+</theme>

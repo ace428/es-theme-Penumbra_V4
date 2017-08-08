@@ -1,0 +1,308 @@
+<!--
+theme name:		Penumbra V4
+version:		1.0
+author:			Scott Augustyn
+based on:		"Flat" by Lilbud
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<view name = "system">
+		<image name = "background_help" extra = "true">
+			<path>./_art/images/white.png</path>
+			<origin>0 1</origin>
+			<pos>0 1</pos>
+			<size>1 0.070</size>
+			<color>FFFFFF99</color>
+		</image>
+		
+		<helpsystem name = "help">
+			<textColor>000000</textColor>
+			<iconColor>000000</iconColor>
+			<fontPath>./_art/fonts/OPENSANS-LIGHT.TTF</fontPath>
+			<fontSize>0.03</fontSize>
+		</helpsystem>
+	</view>
+	
+	<view name="basic">
+		<textlist name="gamelist">
+			<selectorColor>393a3b</selectorColor>
+			<selectedColor>97999b</selectedColor>
+			<primaryColor>393a3b</primaryColor>
+			<secondaryColor>000000</secondaryColor>
+			<fontPath>./_art/fonts/OPENSANS.TTF</fontPath>
+			<fontSize>0.03</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.95 0.74</size>
+			<pos>0.025 0.18</pos>
+		</textlist>
+	</view>
+	
+	<view name="detailed">
+		<image name="background">
+			<path>./_art/theme3_detailed.png</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
+		
+		<image name="md_image">
+			<pos>0.250 0.170</pos>
+			<maxSize>0.333 0.441</maxSize>
+			<origin>0 0</origin>			
+		</image>
+		
+		<image name="md_marquee">
+			<pos>0.025 0.050</pos>
+			<origin>0 0</origin>
+			<maxSize>0.211 0.144</maxSize>
+		</image>
+		
+		<textlist name="gamelist">
+			<selectorColor>505db0</selectorColor>
+			<selectedColor>0f0f10</selectedColor>
+			<primaryColor>505db0</primaryColor>
+			<secondaryColor>000000</secondaryColor>
+			<fontPath>./_art/fonts/OPENSANS.TTF</fontPath>
+			<fontSize>0.03</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.348 0.370</size>
+			<pos>0.610 0.219</pos>
+		</textlist>
+		
+		<text name="md_description">
+			<size>0.703 0.187</size>
+			<pos>0.255 0.700</pos>
+			<color>505db0</color>
+		</text>
+		
+		<text name="md_lbl_rating">
+			<pos>0.040 0.260</pos>
+			<size>0.175 0.025</size>
+			<color>505db0</color>
+		</text>
+		
+		<rating name="md_rating">
+			<pos>0.145 0.295</pos>
+			<size>0.175 0.025</size>
+			<filledPath>./_art/star_filled_spacing_blue.svg</filledPath>
+			<unfilledPath>./_art/star_hollow_spacing_blue.svg</unfilledPath>
+		</rating>
+		
+		<text name="md_lbl_releasedate">
+			<pos>0.040 0.320</pos>
+			<color>505db0</color>
+		</text>
+		
+		<datetime name="md_releasedate">
+			<pos>0.130 0.355</pos>
+			<color>505db0</color>
+		</datetime>
+		
+		<text name="md_lbl_genre">
+			<pos>0.040 0.390</pos>
+			<color>505db0</color>
+		</text>
+		
+		<text name="md_genre">
+			<alignment>right</alignment>
+			<pos>0.040 0.425</pos>
+			<size>0.170 0</size>
+			<color>505db0</color>			
+		</text>	
+		
+		<text name="md_lbl_players">
+			<pos>0.040 0.465</pos>
+			<color>505db0</color>
+		</text>
+		
+		<text name="md_players">
+			<pos>0.040 0.500</pos>
+			<color>505db0</color>
+			<size>0.170 0</size>
+			<alignment>right</alignment>
+		</text>	
+		
+		<text name="md_lbl_developer">
+			<pos>0.040 0.530</pos>
+			<color>505db0</color>
+		</text>
+		
+		<text name="md_developer">
+			<pos>0.040 0.565</pos>
+			<color>505db0</color>
+			<size>0.170 0</size>
+			<alignment>right</alignment>
+		</text>
+		
+		<text name="md_lbl_publisher">
+			<pos>0.040 0.605</pos>
+			<color>505db0</color>
+		</text>
+		
+		<text name="md_publisher">
+			<pos>0.040 0.640</pos>
+			<color>505db0</color>
+			<size>0.170 0</size>
+			<alignment>right</alignment>
+		</text>
+		
+		<text name="md_lbl_lastplayed">
+			<pos>0.040 0.680</pos>
+			<color>505db0</color>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<pos>0.130 0.715</pos>
+			<color>505db0</color>
+		</datetime>
+		
+		<text name="md_lbl_playcount">
+			<pos>0.040 0.760</pos>
+			<color>505db0</color>
+		</text>
+		
+		<text name="md_playcount">
+			<pos>0.040 0.795</pos>
+			<color>505db0</color>
+			<size>0.170 0</size>
+			<alignment>right</alignment>
+		</text>
+	</view>
+	
+	<view name="video">
+		<image name="background">
+			<path>./_art/theme3_detailed.png</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
+		
+		<video name="md_video">
+			<pos>0.250 0.170</pos>
+			<maxSize>0.333 0.441</maxSize>
+			<origin>0 0</origin>			
+			<delay>1.0</delay>
+			<default></default>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+		</video>
+		
+		<image name="md_marquee">
+			<pos>0.025 0.050</pos>
+			<origin>0 0</origin>
+			<maxSize>0.211 0.144</maxSize>
+		</image>
+		
+		<textlist name="gamelist">
+			<selectorColor>505db0</selectorColor>
+			<selectedColor>0f0f10</selectedColor>
+			<primaryColor>505db0</primaryColor>
+			<secondaryColor>000000</secondaryColor>
+			<fontPath>./_art/fonts/OPENSANS.TTF</fontPath>
+			<fontSize>0.03</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.348 0.370</size>
+			<pos>0.610 0.219</pos>
+		</textlist>
+		
+		<text name="md_description">
+			<size>0.703 0.187</size>
+			<pos>0.255 0.700</pos>
+			<color>505db0</color>
+		</text>
+		
+		<text name="md_lbl_rating">
+			<pos>0.040 0.260</pos>
+			<size>0.175 0.025</size>
+			<color>505db0</color>
+		</text>
+		
+		<rating name="md_rating">
+			<pos>0.145 0.295</pos>
+			<size>0.175 0.025</size>
+			<filledPath>./_art/star_filled_spacing_blue.svg</filledPath>
+			<unfilledPath>./_art/star_hollow_spacing_blue.svg</unfilledPath>
+		</rating>
+		
+		<text name="md_lbl_releasedate">
+			<pos>0.040 0.320</pos>
+			<color>505db0</color>
+		</text>
+		
+		<datetime name="md_releasedate">
+			<pos>0.130 0.355</pos>
+			<color>505db0</color>
+		</datetime>
+		
+		<text name="md_lbl_genre">
+			<pos>0.040 0.390</pos>
+			<color>505db0</color>
+		</text>
+		
+		<text name="md_genre">
+			<alignment>right</alignment>
+			<pos>0.040 0.425</pos>
+			<size>0.170 0</size>
+			<color>505db0</color>			
+		</text>	
+		
+		<text name="md_lbl_players">
+			<pos>0.040 0.465</pos>
+			<color>505db0</color>
+		</text>
+		
+		<text name="md_players">
+			<pos>0.040 0.500</pos>
+			<color>505db0</color>
+			<size>0.170 0</size>
+			<alignment>right</alignment>
+		</text>	
+		
+		<text name="md_lbl_developer">
+			<pos>0.040 0.530</pos>
+			<color>505db0</color>
+		</text>
+		
+		<text name="md_developer">
+			<pos>0.040 0.565</pos>
+			<color>505db0</color>
+			<size>0.170 0</size>
+			<alignment>right</alignment>
+		</text>
+		
+		<text name="md_lbl_publisher">
+			<pos>0.040 0.605</pos>
+			<color>505db0</color>
+		</text>
+		
+		<text name="md_publisher">
+			<pos>0.040 0.640</pos>
+			<color>505db0</color>
+			<size>0.170 0</size>
+			<alignment>right</alignment>
+		</text>
+		
+		<text name="md_lbl_lastplayed">
+			<pos>0.040 0.680</pos>
+			<color>505db0</color>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<pos>0.130 0.715</pos>
+			<color>505db0</color>
+		</datetime>
+		
+		<text name="md_lbl_playcount">
+			<pos>0.040 0.760</pos>
+			<color>505db0</color>
+		</text>
+		
+		<text name="md_playcount">
+			<pos>0.040 0.795</pos>
+			<color>505db0</color>
+			<size>0.170 0</size>
+			<alignment>right</alignment>
+		</text>
+	</view>
+</theme>

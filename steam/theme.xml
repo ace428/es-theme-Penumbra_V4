@@ -1,0 +1,56 @@
+<!--
+theme name:	Penumbra_V4
+author:		Scott Augustyn
+variation:	Steam
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../Penumbra_V4.xml</include>
+	
+	<view name = "system">
+		<image name = "background" extra = "true">
+			<path>./_art/steam_blue_header.jpeg</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
+
+		<image name = "logo">
+			<path>./_art/Steam_logo_white.svg</path>
+		</image>
+	</view>
+	
+	<view name = "basic">
+		<image name="logo">
+			<path>./_art/Steam_logo.svg</path>
+			<pos>0.025 0.0775</pos>
+			<maxSize>0.55 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+		
+		<text name="system_name_1" extra="true">
+			<text>Steam</text>
+			<forceUppercase>1</forceUppercase>
+			<size>0.45 0.16</size>
+			<pos>0.527 0</pos>
+			<color>7b7d7f</color>
+			<fontPath>./../_art/fonts/OPENSANS-LIGHT.TTF</fontPath>
+			<fontSize>0.055</fontSize>
+			<alignment>right</alignment>
+		</text>
+	</view>
+	
+	<view name = "detailed"></view>
+	
+	<view name = "video"></view>
+	
+	<view name = "detailed, video">
+		<image name="logo">
+			<pos>0.680 0.025</pos>
+			<maxSize>0.300 0.100</maxSize>
+			<origin>0 0</origin>
+			<path>./../_art/Steam_logo.svg</path>
+		</image>
+	</view>	
+</theme>

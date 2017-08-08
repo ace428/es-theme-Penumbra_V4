@@ -1,0 +1,59 @@
+<!--
+theme name:	Penumbra
+author:		Scott Augustyn
+variation:	Nintendo 64
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../Penumbra_V4.xml</include>
+	
+	<view name = "system">
+		<image name = "background" extra = "true">
+			<path>./_art/n64_art_blur.jpg</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
+
+		<image name = "logo">
+			<path>./_art/n64.svg</path>
+		</image>
+	</view>
+	
+	<view name = "basic">
+		<text name="system_name_1" extra="true">
+			<text>Nintendo 64</text>
+			<forceUppercase>1</forceUppercase>
+			<size>0.45 0.16</size>
+			<pos>0.527 0</pos>
+			<color>7b7d7f</color>
+			<fontPath>./../_art/fonts/OPENSANS-LIGHT.TTF</fontPath>
+			<fontSize>0.055</fontSize>
+			<alignment>right</alignment>
+		</text>
+		
+		<image name="logo">
+			<path>./_art/n64.svg</path>
+			<pos>0.025 0.0775</pos>
+			<maxSize>0.55 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+	</view>
+	
+	<view name = "detailed, video">
+		<image name="background">
+			<path>./../_art/theme3_detailed.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>
+		
+		<image name="logo">
+			<path>./_art/n64.svg</path>
+			<pos>0.6 0.015</pos>
+			<maxSize>0.575 0.12</maxSize>
+			<origin>0 0</origin>
+		</image>
+	</view>
+</theme>
