@@ -15,6 +15,17 @@ I'd like to thank the following for their awesome work:
 - tronkyfran for his amazing system backgrounds. (please check out their theme Tronkyfran)
 - Rookervik for the awesome system logos (please check out their theme Carbon)
 
+### The systems that are currently supported are:
+* Kodi
+* Sega Megadrive
+* Nintendo 64
+* Nintendo Entertainment System
+* Playstation Portable
+* Playstation
+* ScummVM
+* Super Nintendo System
+* Steam (via moonlight)
+
 ## System View
 ![base_screen](https://user-images.githubusercontent.com/29842607/29054586-adf30b6e-7bbc-11e7-8bba-16348b61dc1c.png)
 
