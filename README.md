@@ -16,7 +16,10 @@ I'd like to thank the following for their awesome work:
 - Rookervik for the awesome system logos (please check out their theme Carbon)
 
 ## System View
+![base_screen](https://user-images.githubusercontent.com/29842607/29054586-adf30b6e-7bbc-11e7-8bba-16348b61dc1c.png)
 
 ## Basic View
+![scummvm_basic](https://user-images.githubusercontent.com/29842607/29054612-bf88fa82-7bbc-11e7-8567-be1b0e049ae9.png)
 
 ## Detailed View
+![snes_detailed](https://user-images.githubusercontent.com/29842607/29054627-cebf637e-7bbc-11e7-98ab-86ad7a9a9c96.png)
