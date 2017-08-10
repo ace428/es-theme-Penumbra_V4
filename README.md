@@ -27,7 +27,7 @@ I'd like to thank the following for their awesome work:
 * Steam (via moonlight)
 
 ## System View
-![base_screen](https://user-images.githubusercontent.com/29842607/29054586-adf30b6e-7bbc-11e7-8bba-16348b61dc1c.png)
+![base_screen](https://user-images.githubusercontent.com/29842607/29150615-69447f80-7d41-11e7-87ec-e75ecb38f400.png)
 
 ## Basic View
 ![scummvm_basic](https://user-images.githubusercontent.com/29842607/29054612-bf88fa82-7bbc-11e7-8567-be1b0e049ae9.png)
