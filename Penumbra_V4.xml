@@ -10,20 +10,21 @@ license:		creative commons CC-BY-NC-SA
 	<formatVersion>4</formatVersion>
 	
 	<view name = "system">
-		<image name = "background_help" extra = "true">
-			<path>./_art/images/white.png</path>
-			<origin>0 1</origin>
-			<pos>0 1</pos>
-			<size>1 0.070</size>
-			<color>FFFFFF99</color>
-		</image>
-		
 		<helpsystem name = "help">
 			<textColor>000000</textColor>
 			<iconColor>000000</iconColor>
 			<fontPath>./_art/fonts/OPENSANS-LIGHT.TTF</fontPath>
 			<fontSize>0.03</fontSize>
 		</helpsystem>
+		
+		<image name="help_Background" extra="true">
+			<path>./_art/images/white.png</path>
+			<origin>0 1</origin>
+			<pos>0 1</pos>
+			<size>1 0.070</size>
+			<zIndex>50</zIndex>
+			<color>FFFFFF50</color>
+		</image>
 	</view>
 	
 	<view name="basic">
